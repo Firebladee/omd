@@ -1,3 +1,5 @@
+[![endorse](https://api.coderwall.com/firebladee/endorsecount.png)](https://coderwall.com/firebladee)
+
 Place holder for Readme.
 
 init.pp does nothing
