@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Firebladee/omd.svg?branch=master)](https://travis-ci.org/Firebladee/omd)
 [![endorse](https://api.coderwall.com/firebladee/endorsecount.png)](https://coderwall.com/firebladee)
 
 Place holder for Readme.
