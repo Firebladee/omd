@@ -9,7 +9,7 @@ class omd::install {
 
   case $::osfamily {
     RedHat:{
-      package{ 'omd':
+      package{ 'omd-1.20':
         ensure => installed,
       }
     }
