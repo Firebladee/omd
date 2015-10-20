@@ -13,6 +13,6 @@ class omd::install {
         ensure => installed,
       }
     }
-    default:{ warn('OS type not yet supported')}
+    default:{ warning('OS type not yet supported')}
   }
 }

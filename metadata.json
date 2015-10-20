@@ -1,0 +1,14 @@
+{
+  "name": "Fireblade-omd",
+  "version": "0.1.1",
+  "author": "Fireblade",
+  "summary": "Omd install and config",
+  "license": "Apache-2.0",
+  "source": "https://github.com/Firebladee/omd",
+  "project_page": "https://github.com/Firebladee/omd",
+  "issues_url": "https://github.com/Firebladee/omd/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
