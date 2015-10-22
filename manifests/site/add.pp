@@ -4,7 +4,9 @@
 # $omd_site = "test"
 # include omd::site::add
 
-class omd::site::add {
+class omd::site::add (
+  $omd_site,
+){
 # exec { "omd create $omd_site; omd start $omd_site":
 #   creates => "/opt/omd/sites/$omd_site",
 #   onlyif  => "test ! -d /opt/omd/sites/$omd_site"
