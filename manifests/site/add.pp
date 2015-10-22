@@ -20,5 +20,5 @@ class omd::site::add (
 #    }
 #  }
 
-  omd_add { $omd_site: }
+  omd::site::omd_add { $omd_site: }
 }
