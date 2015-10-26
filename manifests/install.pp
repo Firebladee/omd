@@ -1,5 +1,7 @@
 
-class omd::install {
+class omd::install (
+  $version = '1.30',
+){
 
   # Assuming you are using a yum module to add repo
   # If not use
@@ -9,7 +11,7 @@ class omd::install {
 
   case $::osfamily {
     RedHat:{
-      package{ 'omd':
+      package{ "omd-${version}":
         ensure => installed,
       }
     }

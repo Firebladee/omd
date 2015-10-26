@@ -4,7 +4,7 @@
 # $omd_site = "test"
 # include omd::site::add
 
-class omd::site::add (
+class omd::add (
   $omd_site,
 ){
 # exec { "omd create $omd_site; omd start $omd_site":
