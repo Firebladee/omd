@@ -1,3 +1,7 @@
 .vagrant
 pkg
 .rake_tasks~
+.kitchen/
+.kitchen.local.yml
+.tmp/
+modules/
