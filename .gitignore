@@ -5,3 +5,6 @@ pkg
 .kitchen.local.yml
 .tmp/
 modules/
+.librarian/
+.bundle/
+vendor/
