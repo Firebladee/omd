@@ -1,0 +1,11 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    gbrown-yumrepos (0.0.3)
+      puppetlabs-stdlib (>= 3.0.0)
+    puppetlabs-stdlib (4.11.0)
+
+DEPENDENCIES
+  gbrown-yumrepos (>= 0)
+  puppetlabs-stdlib (>= 1.0.0)
+

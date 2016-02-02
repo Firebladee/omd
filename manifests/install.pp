@@ -13,6 +13,7 @@ class omd::install (
     RedHat:{
       package{ "omd-${version}":
         ensure => installed,
+        install_options => '--nogpgcheck'
       }
     }
     default:{ warning('OS type not yet supported')}
