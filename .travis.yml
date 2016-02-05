@@ -1,4 +1,4 @@
-rvm: 1.9.3
+rvm: 2.0.0
 notifications:
   email:
     - mgreenha@yahoo.co.uk
