@@ -9,3 +9,5 @@ script:
   - "rake spec SPEC_OPTS='--format documentation'"
 gemfile:
   - Gemfile.travis
+install:
+  - rspec-puppet-init
