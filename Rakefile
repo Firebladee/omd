@@ -22,3 +22,7 @@ begin
 rescue LoadError
   puts ">>>>> Kitchen gem not loaded, omitting tasks" unless ENV["CI"]
 end
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.rspec_opts = '--format documentation'
+end
