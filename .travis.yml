@@ -7,3 +7,5 @@ env:
 sudo: false
 script:
   - "rake spec SPEC_OPTS='--format documentation'"
+gemfile:
+  - Gemfile.travis
