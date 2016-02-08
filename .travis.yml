@@ -10,4 +10,5 @@ script:
 gemfile:
   - Gemfile.travis
 install:
+  - bundle install
   - rspec-puppet-init
