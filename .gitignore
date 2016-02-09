@@ -10,3 +10,4 @@ modules/
 vendor/
 .*.swp
 Gemfile.lock
+coverage/

@@ -10,7 +10,7 @@ class omd::install (
   # TODO: add check for repo, if not run the above.
 
   case $::osfamily {
-    RedHat:{
+    'RedHat':{
       package{ "omd-${version}":
         ensure          => installed,
       }
