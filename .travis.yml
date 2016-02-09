@@ -1,14 +1,9 @@
 rvm: 2.0.0
-notifications:
-  email:
-    - mgreenha@yahoo.co.uk
 env:
   - PUPPET_VERSION=3.2.4
 sudo: false
 script:
   - "rake spec SPEC_OPTS='--format documentation'"
-gemfile:
-  - Gemfile.travis
 install:
   - bundle install
   - rspec-puppet-init
