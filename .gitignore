@@ -9,3 +9,4 @@ modules/
 .bundle/
 vendor/
 .*.swp
+Gemfile.lock
