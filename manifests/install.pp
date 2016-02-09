@@ -12,8 +12,8 @@ class omd::install (
   case $::osfamily {
     RedHat:{
       package{ "omd-${version}":
-        ensure => installed,
-        install_options => '--nogpgcheck'
+        ensure          => installed,
+        install_options => ['--nogpgcheck',],
       }
     }
     default:{ warning('OS type not yet supported')}
